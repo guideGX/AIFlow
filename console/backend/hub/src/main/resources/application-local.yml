@@ -21,9 +21,9 @@ s3:
 
 # Spark LLM 配置（讯飞开放平台）
 spark:
-  app-id: ${common.appid}
-  api-key: ${common.apiKey}
-  api-secret: ${common.apiSecret}
+  app-id: ${common.appid:cd1f7ef2}
+  api-key: ${common.apiKey:MmIzMjk1ODAwMGQ1M2Y2ZTA4YjFjNGYw}
+  api-secret: ${common.apiSecret:7b47fbdc8edcb21595687e1fddefad53}
   api:
     password: ${common.apiPassword}
   rtasr-appId: ${SPARK_RTASR_APPID:f740451b}

@@ -144,14 +144,11 @@ s3:
   enablePublicRead: true
 
 # Spark LLM configuration
-tts:
-  source: qwen
-
 spark:
   source: spark
   app-id: ${SPARK_APP_ID:cd1f7ef2}
-  api-key: ${SPARK_API_KEY:MmIzMjk1ODAwMGQ1M2Y2ZTA4YjFjNGYw}
-  api-secret: ${SPARK_API_SECRET:7b47fbdc8edcb21595687e1fddefad53}
+  api-key: ${SPARK_API_KEY:7b47fbdc8edcb21595687e1fddefad53}
+  api-secret: ${SPARK_API_SECRET:MmIzMjk1ODAwMGQ1M2Y2ZTA4YjFjNGYw}
   tts-url: ${SPARK_TTS_URL:wss://cbm01.cn-huabei-1.xf-yun.com/v1/private/mcd9m97e6}
 
 qwen:
