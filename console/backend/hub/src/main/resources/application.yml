@@ -111,9 +111,9 @@ s3:
 
 # Spark LLM configuration
 spark:
-  app-id: ${SPARK_APP_ID:xxx}
-  api-key: ${SPARK_API_KEY:xxx}
-  api-secret: ${SPARK_API_SECRET:xxx}
+  app-id: ${SPARK_APP_ID:cd1f7ef2}
+  api-key: ${SPARK_API_KEY:7b47fbdc8edcb21595687e1fddefad53}
+  api-secret: ${SPARK_API_SECRET:MmIzMjk1ODAwMGQ1M2Y2ZTA4YjFjNGYw}
   api:
     password: ${SPARK_API_PASSWORD:xxx}
   rtasr-key: ${SPARK_RTASR_KEY:xxx}

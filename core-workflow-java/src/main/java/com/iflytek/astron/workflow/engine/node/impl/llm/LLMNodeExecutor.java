@@ -48,6 +48,7 @@ public class LLMNodeExecutor extends AbstractNodeExecutor {
 
     @Override
     protected NodeRunResult executeNode(NodeState nodeState, Map<String, Object> inputs) throws Exception {
+        //从节点中获取节点数据
         Node node = nodeState.node();
         Map<String, Object> nodeParam = node.getData().getNodeParam();
 

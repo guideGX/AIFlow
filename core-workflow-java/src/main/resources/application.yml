@@ -125,7 +125,7 @@ workflow:
   # 外部服务配置
   services:
     # 模型服务地址
-    model-service-url: ${MODEL_SERVICE_URL:http://console-hub:8080}
+    model-service-url: ${MODEL_SERVICE_URL:http://localhost:8080}
     # AI Tools 服务地址，如果选择是Python link服务 则将端口号改为 18888
     # 现在workflow-java的版本中，已将http相关的外部工具调用，迁移到 com.iflytek.astron.link 下了，因此下面是直接调用本机服务来实现工具执行
     aitools-url: ${AITOOLS_URL:http://localhost:7880}
