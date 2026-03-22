@@ -10,5 +10,7 @@ import com.iflytek.astron.workflow.engine.node.callback.WorkflowMsgCallback;
  * @author YiHui
  * @date 2025/12/3
  */
+
+//record 定义只存数据的类
 public record NodeState(Node node, VariablePool variablePool, WorkflowMsgCallback callback) {
 }

@@ -43,6 +43,7 @@ public class LLMNodeExecutor extends AbstractNodeExecutor {
 
     @Override
     public NodeTypeEnum getNodeType() {
+        //表明执行引擎在构建执行链路时，需要根据节点类型去找到对应的执行器实例。换句话说，DSL 里配置了 LLM 节点，执行引擎就会把它分发到这个 LLMNodeExecutor 来跑
         return NodeTypeEnum.LLM;
     }
 
@@ -50,6 +51,8 @@ public class LLMNodeExecutor extends AbstractNodeExecutor {
     protected NodeRunResult executeNode(NodeState nodeState, Map<String, Object> inputs) throws Exception {
         //从节点中获取节点数据
         Node node = nodeState.node();
+
+        //这里将
         Map<String, Object> nodeParam = node.getData().getNodeParam();
 
         Integer modelId = getModelId(nodeParam);
@@ -64,8 +67,8 @@ public class LLMNodeExecutor extends AbstractNodeExecutor {
 
         // 这里是执行llm的交互
         LlmReqBo req = JSONObject.parseObject(JSONObject.toJSONString(nodeParam), LlmReqBo.class);
-        req.setSystemMsg(systemPrompt);
-        req.setUserMsg(resolvedPrompt);
+        req.setSystemMsg(systemPrompt);//系统提示词
+        req.setUserMsg(resolvedPrompt);//用户提示词
         req.setHistory(history);
         req.setNodeId(node.getId());
         req.setModel((String) nodeParam.get("domain"));
@@ -77,6 +80,7 @@ public class LLMNodeExecutor extends AbstractNodeExecutor {
             LlmChatHistory.addMessage(chatId, node.getId(), MsgTypeEnum.SYSTEM, systemPrompt);
         }
         LlmChatHistory.addMessage(chatId, node.getId(), MsgTypeEnum.USER, resolvedPrompt);
+        //这里将上下文给下一个ai
         LlmResVo llmOutput = modelServiceClient.chatCompletion(req, chatResponse -> {
             if (!CollectionUtils.isEmpty(chatResponse.getResults())) {
                 nodeState.callback().onNodeProcess(0, node.getId(), node.getData().getNodeMeta().getAliasName(),

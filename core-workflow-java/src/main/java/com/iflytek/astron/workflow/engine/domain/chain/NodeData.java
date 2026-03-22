@@ -27,7 +27,7 @@ public class NodeData {
     /**
      * Input items
      */
-    @JsonProperty("inputs")
+    @JsonProperty("inputs") //Java 对象转 JSON（序列化）
     private List<InputItem> inputs = new ArrayList<>();
     
     /**
@@ -39,7 +39,7 @@ public class NodeData {
     /**
      * Node-specific parameters (flexible structure for different node types)
      */
-    @JsonProperty("nodeParam")
+    @JsonProperty("nodeParam") //Java 对象转 JSON（序列化）
     private Map<String, Object> nodeParam = new HashMap<>();
     
     /**

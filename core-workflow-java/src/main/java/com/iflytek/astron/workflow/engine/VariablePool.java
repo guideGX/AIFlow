@@ -26,7 +26,7 @@ import java.util.UUID;
 public class VariablePool {
 
     /**
-     * Storage for node outputs
+     * Storage for node outputs 存储节点的输出存储区
      * Key: "node-id.output-name" (e.g., "node-start::001.user_input")
      * Value: actual output value
      */
