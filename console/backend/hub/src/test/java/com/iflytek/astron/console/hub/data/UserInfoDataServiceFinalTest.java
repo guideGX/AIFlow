@@ -156,7 +156,7 @@ class UserInfoDataServiceFinalTest {
     @Test
     void testFindByUsername() {
         testUser.setId(1L);
-        when(userInfoMapper.selectOne(any())).thenReturn(testUser);2
+        when(userInfoMapper.selectOne(any())).thenReturn(testUser);
 
         Optional<UserInfo> result = userInfoDataService.findByUsername("testUser");
 
