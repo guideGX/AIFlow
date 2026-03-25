@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * Model service client.
  * Calls console-hub's model API to execute LLM inference.
  * 
- * @author 二哥编程星球&Java进阶之路（沉默王二&一灰）
+ *
  * @version 1.0.0
  */
 @Slf4j
@@ -36,7 +36,7 @@ public class ModelServiceClient {
         boolean mock = false;
         if (mock) {
             String mockResponse = """
-                    大家好，欢迎来到《沉默王二的编程人生》播客！今天我们要聊的是一个在编程世界里举足轻重的语言——Java。
+                    大家好，欢迎来到播客！今天我们要聊的是一个在编程世界里举足轻重的语言——Java。
 
                     Java，这个由Sun Microsystems在1995年推出的编程语言，可以说是改变了整个软件开发的格局。它的设计理念"一次编写，到处运行"让无数开发者为之倾倒。
 

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
  * This class encapsulates the result of a node execution in a streaming context,
  * including the node identifier, generated content, and completion status.
  * 
- * @author 二哥编程星球&Java进阶之路（沉默王二&一灰）
+ *  
  * @version 1.0.0
  */
 @Data
