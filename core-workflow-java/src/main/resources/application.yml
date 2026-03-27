@@ -108,6 +108,8 @@ logging:
   pattern:
     console: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n'
     file: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n'
+  charset:
+    console: UTF-8
   file:
     name: /app/logs/workflow-java.log
     max-size: 100MB
@@ -144,6 +146,9 @@ s3:
   enablePublicRead: true
 
 # Spark LLM configuration
+tts:
+  source: spark
+
 spark:
   source: spark
   app-id: ${SPARK_APP_ID:cd1f7ef2}
