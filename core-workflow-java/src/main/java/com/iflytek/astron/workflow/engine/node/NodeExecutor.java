@@ -7,6 +7,7 @@ import com.iflytek.astron.workflow.engine.domain.NodeState;
 /**
  * Base interface for all node executors
  * Each node type (Start, LLM, Plugin, End) must implement this interface
+ * //节点执行器接口，每个节点类型（开始、LLM、插件、结束）必须实现此接口
  */
 public interface NodeExecutor {
 

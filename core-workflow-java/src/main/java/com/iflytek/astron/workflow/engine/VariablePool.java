@@ -42,6 +42,12 @@ public class VariablePool {
     public void set(String nodeId, String outputName, Object value) {
         // 基本数据类型、Number、String格式，直接存储； 非基本数据类型，如列表、Map、对象，则转换为JsonObject，JsonArray的方式进行保存
         // 以JsonArray, JsonObject的方式持有变量；方便后续的变量解析
+        if (value == null) {
+            return;
+        }
+
+
+        // instanceof类型检查用于判断一个对象是否是某个类 (或接口) 的实例
         if (ClassUtil.isPrimitiveWrapper(value.getClass()) || value instanceof Number || value instanceof String
                 || value instanceof JSONArray || value instanceof JSONObject || value instanceof UUID) {
 
