@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-事件-常见事件</title>
+</head>
+
+<body>
+    <form action="" style="text-align: center;">
+        <input type="text" name="username" id="username">
+        <input type="text" name="age" id="age">
+        <input id="b1" type="submit" value="提交">
+        <input id="b2" type="button" value="单击事件">
+    </form>
+
+    <br><br><br>
+
+    <table width="800px" border="1" cellspacing="0" align="center">
+        <tr>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>分数</th>
+            <th>评语</th>
+        </tr>
+        <tr align="center">
+            <td>001</td>
+            <td>张三</td>
+            <td>90</td>
+            <td>很优秀</td>
+        </tr>
+        <tr align="center" id="last">
+            <td>002</td>
+            <td>李四</td>
+            <td>92</td>
+            <td>优秀</td>
+        </tr>
+    </table>
+    
+    <script>
+        //click: 鼠标点击事件
+        document.querySelector('#b2').addEventListener('click', () => {
+            console.log("我被点击了...");
+        })
+        
+        //mouseenter: 鼠标移入
+        document.querySelector('#last').addEventListener('mouseenter', () => {
+            console.log("鼠标移入了...");
+        })
+
+        //mouseleave: 鼠标移出
+        document.querySelector('#last').addEventListener('mouseleave', () => {
+            console.log("鼠标移出了...");
+        })
+
+        //keydown: 某个键盘的键被按下
+        document.querySelector('#username').addEventListener('keydown', () => {
+            console.log("键盘被按下了...");
+        })
+
+        //keydown: 某个键盘的键被抬起
+        document.querySelector('#username').addEventListener('keyup', () => {
+            console.log("键盘被抬起了...");
+        })
+
+        //blur: 失去焦点事件
+        document.querySelector('#age').addEventListener('blur', () => {
+            console.log("失去焦点...");
+        })
+
+        //focus: 元素获得焦点
+        document.querySelector('#age').addEventListener('focus', () => {
+            console.log("获得焦点...");
+        })
+
+        //input: 用户输入时触发
+        document.querySelector('#age').addEventListener('input', () => {
+            console.log("用户输入时触发...");
+        })
+
+        //submit: 提交表单事件
+        document.querySelector('form').addEventListener('submit', () => {
+            alert("表单被提交了...");
+        })
+    </script>
+</body>
+
+</html>

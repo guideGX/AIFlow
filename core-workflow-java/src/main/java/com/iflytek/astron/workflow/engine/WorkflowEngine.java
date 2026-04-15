@@ -324,6 +324,7 @@ public class WorkflowEngine {
 
         node.setStatus(NodeStatusEnum.RUNNING);
         // 执行当前节点
+        //递归执行节点了
         NodeExecStatusEnum execStatus;
         while (true) {
             NodeRunResult res = executor.execute(new NodeState(node, variablePool, callback));

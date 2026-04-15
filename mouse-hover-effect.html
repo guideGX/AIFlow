@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鼠标移入移出效果示例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: #666;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .instruction {
+            margin-top: 20px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>鼠标移入移出效果</h1>
+        <div class="box" id="colorBox">
+            将鼠标移入这个区域
+        </div>
+        <p class="instruction">移入：背景色变为 #f2e2e2 | 移出：背景色变为白色</p>
+    </div>
+
+    <script>
+        // 获取元素
+        const colorBox = document.getElementById('colorBox');
+
+        // 鼠标移入事件
+        colorBox.addEventListener('moueenter', function() {
+            this.style.backgroundColor = '#f2e2e2';
+            this.textContent = '鼠标已移入 🎉';
+        });
+
+        // 鼠标移出事件
+        colorBox.addEventListener('mouseleave', function() {
+            this.style.backgroundColor = 'white';
+            this.textContent = '将鼠标移入这个区域';
+        });
+    </script>
+</body>
+</html>
