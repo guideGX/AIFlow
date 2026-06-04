@@ -399,7 +399,7 @@ export default {
     deepseekV3: 'DeepSeek-V3',
     deepseekV3Desc:
       'Powerful knowledge understanding and answering capabilities, suitable for various scenarios',
-    sparkX1: 'Spark-X1',
+    sparkX1: 'AiFlow-X1',
     sparkX1Desc:
       'Input judge model to evaluate content, finally generate evaluation report',
     evaluationIndicators: 'Evaluation Dimension',

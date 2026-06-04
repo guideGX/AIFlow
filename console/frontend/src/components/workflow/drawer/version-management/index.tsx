@@ -51,10 +51,10 @@ const PublishResultModal = ({
   const renderPlatformLogo = (type: number): React.ReactElement | null => {
     switch (type) {
       case 1:
-        return <img src={icons.iflytek} alt="科大讯飞" className="w-12 h-12" />;
+        return <img src={icons.aiflow} alt="AiFlow" className="w-12 h-12" />;
       case 2:
         return (
-          <img src={icons.iflytekCloud} alt="讯飞云" className="w-12 h-12" />
+          <img src={icons.aiflowCloud} alt="AiFlow Cloud" className="w-12 h-12" />
         );
       case 3:
         return <img src={icons.wechat} alt="微信" className="w-12 h-12" />;
@@ -68,9 +68,9 @@ const PublishResultModal = ({
   const getPlatformLabel = (type: number): string => {
     switch (type) {
       case 1:
-        return t('workflow.versionManagement.iflytekVoicePlatform');
+        return t('workflow.versionManagement.aiflowVoicePlatform');
       case 2:
-        return t('workflow.versionManagement.iflytekCloudPlatform');
+        return t('workflow.versionManagement.aiflowCloudPlatform');
       case 3:
         return t('workflow.versionManagement.wechatOfficialAccount');
       case 4:

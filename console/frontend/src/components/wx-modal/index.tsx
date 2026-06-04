@@ -21,8 +21,8 @@ import { useBotStateStore } from '@/store/spark-store/bot-state';
 
 // import wxImg from '@/assets/imgs/workflow/wechat-icon.png';
 // import mcpImg from '@/assets/imgs/workflow/mcp-icon.png';
-import apiImg from '@/assets/imgs/workflow/iflytekCloud-icon.png';
-import xinghuoImg from '@/assets/imgs/workflow/iflytek-icon.png';
+import apiImg from '@/assets/imgs/workflow/aiflowCloud-icon.png';
+import xinghuoImg from '@/assets/imgs/workflow/aiflow-icon.png';
 
 import styles from './index.module.scss';
 import cls from 'classnames';
@@ -214,7 +214,7 @@ const WxModal: React.FC<MultiModeCpnProps> = ({
   //   setIsMcpOpen(false);
   // };
 
-  //发布 or 更新发布 -- 至星火
+  //发布 or 更新发布 -- 至AiFlow
   const handlePublish = async (): Promise<void> => {
     if (promptbot) {
       eventBus.emit('releaseFn');

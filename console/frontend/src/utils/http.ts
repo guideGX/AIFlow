@@ -214,7 +214,7 @@ export const initBusinessError = (
       window.location.href = '/space/agent';
     });
   }
-  // 星火注销
+  // AiFlow注销
   if (result.code === 99900 && window.location.pathname !== '/spark') {
     window.location.href = '/spark';
   }
@@ -358,7 +358,7 @@ axios.interceptors.request.use(
     removePendingRequest(config); // 检查是否存在重复请求，若存在则取消已发的请求
     addPendingRequest(config); // 把当前请求信息添加到pendingRequest对象中
     config.headers = config.headers || {};
-    config.headers.clientType = '11'; //手动设置clientType getCookie("clientType")拿到的和星火一样
+    config.headers.clientType = '11'; //手动设置clientType getCookie("clientType")拿到的和AiFlow一样
     config.headers.Channel = getCookie('channel');
     if (useSpaceStore.getState().spaceType === 'team') {
       config.headers['enterprise-id'] = useSpaceStore.getState().enterpriseId;

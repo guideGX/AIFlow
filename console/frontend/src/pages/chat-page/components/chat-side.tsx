@@ -202,7 +202,7 @@ const ChatSide: React.FC<ChatSideProps> = ({ botInfo }) => {
               </Tooltip>
             )}
 
-            {modelInfo.name.includes('星火大模型') && (
+            {modelInfo.name.includes('AiFlow大模型') && (
               <Tooltip
                 title={modelInfo.tooltip}
                 placement="top"

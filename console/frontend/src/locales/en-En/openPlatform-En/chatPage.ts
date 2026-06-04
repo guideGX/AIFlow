@@ -27,7 +27,7 @@ const transition = {
     webSearch: 'Web Search',
     aiImage: 'AI Image Generation',
     codeGeneration: 'Code Generation',
-    sparkModel: 'Spark Model',
+    sparkModel: 'AiFlow Model',
     deepseekR1Model: 'DeepSeek R1 Model',
     deepseekV3Model: 'DeepSeek V3 Model',
     gemmaModel: 'Gemma Model',

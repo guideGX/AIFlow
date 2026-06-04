@@ -155,8 +155,8 @@ import pointIcon from '@/assets/imgs/workflow/dot-icon.png';
 import selectedPointIcon from '@/assets/imgs/workflow/select-dot-icon.png';
 import wechatIcon from '@/assets/imgs/workflow/wechat-icon.png';
 import mcpIcon from '@/assets/imgs/workflow/mcp-icon.png';
-import iflytekCloudIcon from '@/assets/imgs/workflow/iflytekCloud-icon.png';
-import iflytekIcon from '@/assets/imgs/workflow/iflytek-icon.png';
+import aiflowCloudIcon from '@/assets/imgs/workflow/aiflowCloud-icon.png';
+import aiflowIcon from '@/assets/imgs/workflow/aiflow-icon.png';
 
 // Add Plugin 模块图标
 import addPluginFormSelect from '@/assets/imgs/main/icon_nav_dropdown.svg';
@@ -279,8 +279,8 @@ interface VersionManagementIcons {
   selectedPoint: string;
   wechat: string;
   mcp: string;
-  iflytekCloud: string;
-  iflytek: string;
+  aiflowCloud: string;
+  aiflow: string;
 }
 
 interface AddPluginIcons {
@@ -536,8 +536,8 @@ export const Icons: WorkflowIcons = {
     selectedPoint: selectedPointIcon,
     wechat: wechatIcon,
     mcp: mcpIcon,
-    iflytekCloud: iflytekCloudIcon,
-    iflytek: iflytekIcon,
+    aiflowCloud: aiflowCloudIcon,
+    aiflow: aiflowIcon,
   },
   addPlugin: {
     formSelect: addPluginFormSelect,

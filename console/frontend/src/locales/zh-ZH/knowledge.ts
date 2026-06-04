@@ -20,7 +20,7 @@ const translation = {
   knowledgeVersion: '知识库版本：',
   ragflowRAG: 'RAGFlow',
   ragflowRAGDescription: '开源版本RAGFlow，详见 ',
-  xinghuoKnowledge: '星火知识库',
+  xinghuoKnowledge: 'AiFlow知识库',
   xingpuDescription:
     '可整合多源异构知识数据自动采编，提供问答式检索，支持答案追溯，适用于企业场景。',
   xingchenKnowledge: '星辰知识库',

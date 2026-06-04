@@ -6,7 +6,7 @@ export const vcnCnJson = [
     vcn: 'x4_lingxiaoqi',
     style: 'assistant',
     wsUrl: 'wss://cn-global.xf-yun.com/v1/private/s62f75860',
-    preText: '懂你所言，答你所问，我是你的讯飞星火小助理',
+    preText: '懂你所言，答你所问，我是你的AiFlow小助理',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943709826%2Flxq.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616503105%2Flingxiaoqi.mp3',
@@ -17,7 +17,7 @@ export const vcnCnJson = [
     vcn: 'x4_lingfeichen',
     style: 'assistant',
     wsUrl: 'wss://cn-global.xf-yun.com/v1/private/s87cfb83f',
-    preText: '懂你所言，答你所问，我是你的讯飞星火小助理',
+    preText: '懂你所言，答你所问，我是你的AiFlow小助理',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943686779%2Flfc.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616467401%2Flingfeichen.mp3',
@@ -28,7 +28,7 @@ export const vcnCnJson = [
     vcn: 'x4_lingfeizhe',
     style: 'assistant',
     wsUrl: 'wss://cn-global.xf-yun.com/v1/private/s87cfb83f',
-    preText: '懂你所言，答你所问，我是你的讯飞星火小助理',
+    preText: '懂你所言，答你所问，我是你的AiFlow小助理',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943694890%2Flfz.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616493613%2Flingfeizhe.mp3',
@@ -96,7 +96,7 @@ export const vcnCnJsonEn = [
     vcn: 'x4_lingxiaoqi',
     style: 'assistant',
     wsUrl: 'wss://cn-global.xf-yun.com/v1/private/s62f75860',
-    preText: '懂你所言，答你所问，我是你的讯飞星火小助理',
+    preText: '懂你所言，答你所问，我是你的AiFlow小助理',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943709826%2Flxq.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616503105%2Flingxiaoqi.mp3',
@@ -107,7 +107,7 @@ export const vcnCnJsonEn = [
     vcn: 'x4_lingfeichen',
     style: 'assistant',
     wsUrl: 'wss://cn-global.xf-yun.com/v1/private/s87cfb83f',
-    preText: '懂你所言，答你所问，我是你的讯飞星火小助理',
+    preText: '懂你所言，答你所问，我是你的AiFlow小助理',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943686779%2Flfc.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616467401%2Flingfeichen.mp3',
@@ -118,7 +118,7 @@ export const vcnCnJsonEn = [
     vcn: 'x4_lingfeizhe',
     style: 'assistant',
     wsUrl: 'wss://cn-global.xf-yun.com/v1/private/s87cfb83f',
-    preText: '懂你所言，答你所问，我是你的讯飞星火小助理',
+    preText: '懂你所言，答你所问，我是你的AiFlow小助理',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943694890%2Flfz.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616493613%2Flingfeizhe.mp3',
@@ -187,7 +187,7 @@ export const vcnEnJson = [
     style: 'assistant',
     wsUrl: 'wss://cn-huadong-1.xf-yun.com/v1/private/s0ff5b4cc',
     preText:
-      'Understand what you say, answer what you ask, I am your iFLYTEK Spark Assistant',
+      'Understand what you say, answer what you ask, I am your AiFlow Assistant',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943695009%2Fluna.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616513745%2FLuna.mp3',
@@ -199,7 +199,7 @@ export const vcnEnJson = [
     style: 'assistant',
     wsUrl: 'wss://cn-huadong-1.xf-yun.com/v1/private/s0ff5b4cc',
     preText:
-      'Understand what you say, answer what you ask, I am your iFLYTEK Spark Assistant',
+      'Understand what you say, answer what you ask, I am your AiFlow Assistant',
     imgUrl: `https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16824985943631137%2Fgavin.png`,
     audioUrl:
       'https://1024-cdn.xfyun.cn/2022_1024%2Fcms%2F16826811616394027%2FGavin.mp3',

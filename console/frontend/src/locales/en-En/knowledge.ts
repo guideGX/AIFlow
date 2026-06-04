@@ -20,7 +20,7 @@ const translation = {
   knowledgeVersion: 'Version:',
   ragflowRAG: 'RAGFlow',
   ragflowRAGDescription: 'Open source version RAGFlow, see ',
-  xinghuoKnowledge: 'Spark Knowledge Base',
+  xinghuoKnowledge: 'AiFlow Knowledge Base',
   xingpuDescription:
     'integrates multi-source heterogeneous knowledge with automated ingestion, delivers conversational Q&A retrieval, and enables answer tracing. It is tailored for robust enterprise applications.',
   xingchenKnowledge: 'Astra Knowledge Base',

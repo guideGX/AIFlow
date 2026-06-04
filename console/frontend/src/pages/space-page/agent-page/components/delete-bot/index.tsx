@@ -31,7 +31,7 @@ function index({
   const { t } = useTranslation();
 
   async function handleOk(): Promise<void> {
-    // 从智能体Tab传入Bot的删除 -- 调用星火方面接口
+    // 从智能体Tab传入Bot的删除 -- 调用AiFlow方面接口
     setLoading(true);
     if (botDetail?.botStatus === 2) {
       await handleAgentStatus(botDetail.botId as number, {

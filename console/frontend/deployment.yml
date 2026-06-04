@@ -17,7 +17,7 @@ spec:
       hostNetwork: true
       containers:
       - name: xingchen-pro-webapp
-        image: "artifacts.iflytek.com/docker-private/hy-spark-agent-builder/xingchen-pro-webapp:$DRONE_TAG"
+        image: "aiflow/xingchen-pro-webapp:$DRONE_TAG"
         imagePullPolicy: Always
         ports:
         - containerPort: 21515

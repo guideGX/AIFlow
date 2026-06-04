@@ -11,7 +11,7 @@ const loginModal = {
   loginButtonText: 'Login/Register',
   agreeTerms: 'Please read and accept',
   autoRegisterText:
-    'Unregistered phone numbers will be automatically registered. I have read and agree to Spark',
+    'Unregistered phone numbers will be automatically registered. I have read and agree to AiFlow',
   privacyPolicyText: '《Privacy Policy》',
   userAgreementText: '《User Agreement》',
   andText: 'and',
@@ -24,8 +24,8 @@ const loginModal = {
   termsAgreementIntro: 'Check means you agree to accept',
   serviceAgreement: '《Service Agreement》',
   privacyAgreement: '《Privacy Agreement》',
-  sparkPrivacyPolicy: '《Spark Privacy Policy》',
-  sparkUserAgreement: '《Spark User Agreement》',
+  sparkPrivacyPolicy: '《AiFlow Privacy Policy》',
+  sparkUserAgreement: '《AiFlow User Agreement》',
 };
 
 export default loginModal;

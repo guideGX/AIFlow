@@ -27,7 +27,7 @@ const transition = {
     webSearch: '联网搜索',
     aiImage: 'AI画图',
     codeGeneration: '代码生成',
-    sparkModel: '星火大模型',
+    sparkModel: 'AiFlow大模型',
     deepseekR1Model: 'DeepSeek R1模型',
     deepseekV3Model: 'DeepSeek V3模型',
     gemmaModel: 'Gemma大模型',

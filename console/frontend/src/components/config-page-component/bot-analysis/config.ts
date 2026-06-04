@@ -23,7 +23,7 @@ export const mutiUserOption = {
     itemHeight: 4, // 调整图标高度为细线效果
     data: [
       {
-        name: '星火Desk',
+        name: 'AiFlowDesk',
         textStyle: {
           color: '#7F7F7F',
           fontWeight: 500,
@@ -31,7 +31,7 @@ export const mutiUserOption = {
         },
       },
       {
-        name: '星火App',
+        name: 'AiFlowApp',
         textStyle: {
           color: '#7F7F7F',
           fontWeight: 500,
@@ -105,7 +105,7 @@ export const mutiUserOption = {
 
   series: [
     {
-      name: '星火Desk',
+      name: 'AiFlowDesk',
       type: 'line',
       stack: '总量',
       showSymbol: false,
@@ -117,7 +117,7 @@ export const mutiUserOption = {
       data: [0, 0, 0, 0, 0, 0, 0],
     },
     {
-      name: '星火App',
+      name: 'AiFlowApp',
       type: 'line',
       stack: '总量',
       showSymbol: false,
@@ -179,7 +179,7 @@ export const mutiSessionOption = {
     itemHeight: 4, // 调整图标高度为细线效果
     data: [
       {
-        name: '星火Desk',
+        name: 'AiFlowDesk',
         textStyle: {
           color: '#7F7F7F',
           fontWeight: 500,
@@ -187,7 +187,7 @@ export const mutiSessionOption = {
         },
       },
       {
-        name: '星火App',
+        name: 'AiFlowApp',
         textStyle: {
           color: '#7F7F7F',
           fontWeight: 500,
@@ -261,7 +261,7 @@ export const mutiSessionOption = {
 
   series: [
     {
-      name: '星火Desk',
+      name: 'AiFlowDesk',
       type: 'line',
       stack: '总量',
       showSymbol: false,
@@ -273,7 +273,7 @@ export const mutiSessionOption = {
       data: [0, 0, 0, 0, 0, 0, 0],
     },
     {
-      name: '星火App',
+      name: 'AiFlowApp',
       type: 'line',
       stack: '总量',
       showSymbol: false,
@@ -576,10 +576,10 @@ export const processChannelData = (data: any) => {
 
   // 2. 初始化各渠道数据对象
   const channelData = {
-    desk: new Array(uniqueDates.length).fill(0), // 星火Desk (channel=1)
+    desk: new Array(uniqueDates.length).fill(0), // AiFlowDesk (channel=1)
     h5: new Array(uniqueDates.length).fill(0), // H5 (channel=2)
     mini: new Array(uniqueDates.length).fill(0), // 小程序 (channel=3)
-    app: new Array(uniqueDates.length).fill(0), // 星火App (channel=4,5,6)
+    app: new Array(uniqueDates.length).fill(0), // AiFlowApp (channel=4,5,6)
     plaza: new Array(uniqueDates.length).fill(0), // 星辰广场 (channel=11)
   };
 

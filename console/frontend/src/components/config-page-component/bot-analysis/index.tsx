@@ -233,12 +233,12 @@ const BotAnalysis = ({
         },
         series: [
           {
-            name: '星火Desk',
+            name: 'AiFlowDesk',
             ...pre.series[0],
             data: processedData.channelData.desk,
           },
           {
-            name: '星火App',
+            name: 'AiFlowApp',
             ...pre.series[1],
             data: processedData.channelData.app,
           },
@@ -275,12 +275,12 @@ const BotAnalysis = ({
         },
         series: [
           {
-            name: '星火Desk',
+            name: 'AiFlowDesk',
             ...pre.series[0],
             data: processedData.channelData.desk,
           },
           {
-            name: '星火App',
+            name: 'AiFlowApp',
             ...pre.series[1],
             data: processedData.channelData.app,
           },

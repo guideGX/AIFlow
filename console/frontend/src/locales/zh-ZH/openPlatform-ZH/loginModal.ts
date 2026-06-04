@@ -10,7 +10,7 @@ const loginModal = {
   resendAfter: '秒后重发',
   loginButtonText: '登录/注册',
   agreeTerms: '请阅读并接受',
-  autoRegisterText: '未注册手机号将自动注册账号，已阅读并同意星火',
+  autoRegisterText: '未注册手机号将自动注册账号，已阅读并同意AiFlow',
   privacyPolicyText: '《隐私政策》',
   userAgreementText: '《用户协议》',
   andText: '和',
@@ -23,8 +23,8 @@ const loginModal = {
   termsAgreementIntro: '勾选即代表您同意并接受',
   serviceAgreement: '《服务协议》',
   privacyAgreement: '《隐私协议》',
-  sparkPrivacyPolicy: '《星火隐私政策》',
-  sparkUserAgreement: '《星火用户协议》',
+  sparkPrivacyPolicy: '《AiFlow隐私政策》',
+  sparkUserAgreement: '《AiFlow用户协议》',
 };
 
 export default loginModal;

@@ -245,7 +245,7 @@ interface MCPToolDetail {
   overview: string;
   /** 创建者信息 */
   creator: string;
-  /** Spark 标识（可为 null） */
+  /** AiFlow 标识（可为 null） */
   sparkId: string | null;
   /** 创建时间（ISO 时间格式，如 "2025-04-26T12:01:31+08:00"） */
   createTime: string;

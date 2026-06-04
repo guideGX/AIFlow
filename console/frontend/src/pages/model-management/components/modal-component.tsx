@@ -508,7 +508,7 @@ const SelectLocalModel = ({
           <span className="text-[#7f7f7f]">{t('model.selectModelTips')}</span>
           <a
             className="text-[#275EFF]"
-            href="https://github.com/iflytek/astron-xmod-shim"
+            href="https://github.com/aiflow/astron-xmod-shim"
             target="_blank"
           >
             {t('model.referenceDocument')}
@@ -563,7 +563,7 @@ const PerformanceConfiguration = ({
           className="w-4 h-4 ml-1 cursor-pointer"
           onClick={() => {
             window.open(
-              'https://github.com/iflytek/astron-xmod-shim',
+              'https://github.com/aiflow/astron-xmod-shim',
               '_blank'
             );
           }}

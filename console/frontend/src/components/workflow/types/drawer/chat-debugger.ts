@@ -118,7 +118,7 @@ export interface ChatDebuggerNodeData {
   updatable?: boolean;
 }
 
-// 讯飞机器人配置类型定义
+// AiFlow机器人配置类型定义
 export interface XfYunBotConfig {
   chatId?: string;
   botId?: string;

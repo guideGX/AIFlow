@@ -157,7 +157,7 @@ const BaseConfig: React.FC<ChatProps> = ({
   const [modelList, setModelList]: any = useState([
     {
       modelId: 'null',
-      modelName: '星火大模型 Spark X1',
+      modelName: 'AiFlow X1',
       modelDomain: 'x1',
       model: '', // 将在 modelOptions 加载后初始化
       modelIcon:
@@ -166,7 +166,7 @@ const BaseConfig: React.FC<ChatProps> = ({
     },
     {
       modelId: 'null',
-      modelName: '星火大模型 Spark X1',
+      modelName: 'AiFlow X1',
       modelDomain: 'x1',
       model: '', // 将在 modelOptions 加载后初始化
       modelIcon:
@@ -253,7 +253,7 @@ const BaseConfig: React.FC<ChatProps> = ({
   const [publishModalShow, setPublishModalShow] = useState(false);
   const [vcnList, setVcnList] = useState<{ vcn: string }[]>([]);
   const [form] = Form.useForm();
-  const [model, setModel] = useState('星火大模型 Spark X1');
+  const [model, setModel] = useState('AiFlow X1');
   const [modelOptions, setModelOptions] = useState<ModelListData[]>([]);
   const [pendingModelData, setPendingModelData] = useState<{
     modelId?: string;
@@ -567,7 +567,7 @@ const BaseConfig: React.FC<ChatProps> = ({
         const { modelId, modelDomain } = pendingModelData;
         handleModelDisplay(modelId, modelDomain);
         setPendingModelData(null); // 清除待处理数据
-      } else if (model === '星火大模型 Spark X1' || !model) {
+      } else if (model === 'AiFlow X1' || !model) {
         // 创建模式：如果 model 还是初始值或为空，设置为第一个模型的 uniqueKey
         const firstModel = modelOptions[0];
         if (firstModel) {
@@ -1093,7 +1093,7 @@ const BaseConfig: React.FC<ChatProps> = ({
       ...modelList,
       {
         modelId: firstModel?.modelId || 'null',
-        modelName: firstModel?.modelName || '星火大模型 Spark X1',
+        modelName: firstModel?.modelName || 'AiFlow X1',
         modelDomain: firstModel?.modelDomain || 'x1',
         model: firstModel ? getModelUniqueKey(firstModel, 0) : 'x1_0',
         modelIcon:

@@ -48,7 +48,7 @@ export const placeholderText = {
     风格设定: '豪放的文字风格',
     botDesc: '一个主题就能创作一首现代诗歌',
     botTemplate: '比如，您可以输入“夏天”，我会写一首关于夏天的现代诗',
-    example1: '星火',
+    example1: 'AiFlow',
     example2: '浩瀚宇宙',
     example3: '母亲节',
   },
